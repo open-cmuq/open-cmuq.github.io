@@ -1,6 +1,6 @@
 ## OpenCMUQ Website
 
-<img src="./src/assets/open-cmuq-logo.png" width="250" alt="OpenCMUQ Logo">
+<img src="./src/assets/opencmuq.png" width="250" alt="OpenCMUQ Logo">
 
 This website is created for OpenCMUQ Collectives club at Carnegie Mellon University in Qatar.
 
