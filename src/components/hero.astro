@@ -18,29 +18,40 @@ import { Icon } from "astro-icon/components";
     />
   </div>
   <div>
-    <h1
-      class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-      OpenCMUQ
+    <h1>
+      <span class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">Open</span>
+      <span class="text-5xl lg:text-6xl xl:text-7xl lg:tracking-tight xl:tracking-tighter text-slate-500">CMUQ</span>
     </h1>
     <p class="text-lg mt-4 text-slate-600 max-w-xl">
       An <b>open-source initative</b> within CMUQ
     </p>
     <div class="mt-6 flex flex-col sm:flex-row gap-3">
       <Link
+        size="lg"
+        style="outline"
+        rel="noopener"
         href="/about"
-        class="flex gap-1 items-center justify-center"
-        rel="noopener">
-        <Icon class="text-white w-5 h-5" name="bx:bxs-info-circle" />
+        class="flex gap-1 items-center justify-center">
+        <Icon class="text-black w-4 h-4" name="bx:bxs-info-circle" />
         About
       </Link>
       <Link
         size="lg"
         style="outline"
         rel="noopener"
-        href="/contact"
+        href="/contact-student"
+        class="flex gap-1 items-center justify-center">
+        <Icon class="text-black w-4 h-4" name="uil:android" />
+        Join Us
+      </Link>
+      <Link
+        size="lg"
+        style="outline"
+        rel="noopener"
+        href="/contact-club"
         class="flex gap-1 items-center justify-center">
         <Icon class="text-black w-4 h-4" name="simple-icons:minutemailer" />
-        Contact
+        Send Request
       </Link>
     </div>
   </div>
