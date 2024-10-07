@@ -9,35 +9,32 @@ import { Icon } from "astro-icon/components";
 <Layout title="Contact">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Contact</Fragment>
-      <Fragment slot="desc">We are a here to help.</Fragment>
+      <Fragment slot="title">Wanna contribute?</Fragment>
+      <Fragment slot="desc"></Fragment>
     </Sectionhead>
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
-        <h2 class="font-medium text-2xl text-gray-800">Contact Astroship</h2>
-        <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Have something to say? We are here to help. Fill up the form or send
-          email or call phone.
+        <h2 class="font-medium text-2xl text-gray-800">Contact OpenCMUQ</h2>
+        <p class="text-md leading-relaxed text-slate-500 mt-3">
+          If you're a student contributor, we're glad to collaborate with you! Please fill out the form on the right, and we'll add you to
+          Discord.
+
+        </p>
+        <p class="text-md leading-relaxed text-slate-500 mt-3">
+          Briefly let us know about you, what skills you have, and what you are looking to improve/work on the most.
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
-            <span>1734 Sanfransico, CA 93063</span>
-          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
             <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
-              href="mailto:hello@astroshipstarter.com"
-              >hello@astroshipstarter.com</a
-            >
-          </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /><a
-              href="tel:+1 (987) 4587 899">+1 (987) 4587 899</a
+              href="mailto:opencmuq@andrew.cmu.edu"
+              >opencmuq@andrew.cmu.edu</a
             >
           </div>
         </div>
       </div>
       <div>
-        <Contactform />
+        <Contactform prefix="Contributor" />
       </div>
     </div>
   </Container>

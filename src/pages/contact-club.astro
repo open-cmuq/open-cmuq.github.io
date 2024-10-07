@@ -9,16 +9,31 @@ import { Icon } from "astro-icon/components";
 <Layout title="Contact">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Wanna contribute?</Fragment>
-      <Fragment slot="desc"></Fragment>
+      <Fragment slot="title">Send Request</Fragment>
+      <Fragment slot="desc">We are here to help!</Fragment>
     </Sectionhead>
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
         <h2 class="font-medium text-2xl text-gray-800">Contact OpenCMUQ</h2>
-        <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          We're glad you want to join! Please fill out the form on the right, and we'll add you to the
-          Discord 
+        <p class="text-md leading-relaxed text-slate-500 mt-3">
+          Explain your needs and requirements for the software:
+          <ul class="text-md leading-relaxed text-slate-500 mt-3 list-disc pl-5">
+            <li>Hosting space</li>
+            <li>Domain name</li>
+            <li>Servers</li>
+            <li>Developers</li>
+            <li>Maintainers</li>
+          </ul>
+        </p>
+        <p class="text-md leading-relaxed text-slate-500 mt-3">
+          What you can provide from your side for your usecase:
+          <ul class="text-md leading-relaxed text-slate-500 mt-3 list-disc pl-5">
+            <li>Designers</li>
+            <li>Animations</li>
+            <li>Videos</li>
+            <li>Or any other relevant skills</li>
+          </ul>
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
@@ -30,7 +45,7 @@ import { Icon } from "astro-icon/components";
         </div>
       </div>
       <div>
-        <Contactform desc= />
+        <Contactform prefix="Request" />
       </div>
     </div>
   </Container>
