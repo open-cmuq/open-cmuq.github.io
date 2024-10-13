@@ -11,7 +11,7 @@ You can clone the project directly from this repo to your local system.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/open-cmuq/opencmuq-website.git
+git clone https://github.com/open-cmuq/open-cmuq.github.io.git
 ```
 
 ### 2. Install Dependencies
