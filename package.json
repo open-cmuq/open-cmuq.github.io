@@ -3,6 +3,7 @@
   "type": "module",
   "version": "2.2.0",
   "private": true,
+  "packageManager": "9.12.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
